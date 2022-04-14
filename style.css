@@ -1,21 +1,22 @@
 body {
-    background: #e3e2cb;
+    background: #63E0A4;
     font-family: Helvetica, Arial, sans-serif;
 }
 
 div#header {
-    margin-top: 0px;
-    background-color: #c1f4cf;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #2BA68D;
     text-align: center;
     width: 100vw;
     border-top: 2px dotted;
     border-bottom: 2px dotted;
-    font-size: 24px;  
+    font-size: 1.5vw;  
 }
 
 nav a {
+    color:#414141;
     padding-left: 75px;
     padding-right: 75px;
     border-radius: 25px;
@@ -23,8 +24,29 @@ nav a {
     
 }
 
-h1 {
-    text-align: center;
+.title {
+    margin-bottom: 150px;
+}
+
+#profile {
+    position: left;
+    float:left;
+    width:200px;
+    border-radius: 50px;
+    margin-left: 100px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+#name {
+    text-align: right;
+    position: right;
+    margin-top: 100px;
+    margin-right:100px;
+
+}
+
+h3 {
+    text-align:center;
 }
 
     
