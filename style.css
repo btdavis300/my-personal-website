@@ -65,7 +65,9 @@ nav a {
 }
 
 #footer {
-    height: 150px;
+    position: sticky;
+    bottom: 0;
+    height: 100px;
     width: 100vw;
     background-color:#45aac4;
     border-top: 2px dotted;
@@ -76,5 +78,18 @@ nav a {
     color:#ddfced;
     text-align: center;
     margin: auto;
-    padding-top:30px;
+    padding-top:20px;
+}
+
+.about-me {
+    height: fit-content;
+    width: fit-content;
+    padding-top: 40px;
+}
+
+section.about-me p {
+    color:#575555;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
 }
