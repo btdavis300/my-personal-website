@@ -27,6 +27,10 @@ nav a {
     
 }
 
+nav a:hover {
+    color:#f6ffd2;
+}
+
 .title {
     margin-bottom: 150px;
 }
