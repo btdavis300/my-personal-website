@@ -6,6 +6,7 @@ body {
     height: 100%;
 }
 
+/*Navigation Bar Styles*/
 div#header {
     position: fixed;
     top: 0;
@@ -30,8 +31,10 @@ nav a {
 
 nav a:hover {
     color:#ddfced;
+    background-color: rgb(216, 191, 216, .75)
 }
 
+/*Footer Styles*/
 #footer {
     position: sticky;
     bottom: 0;
@@ -85,6 +88,14 @@ nav a:hover {
     padding: 75px;
     text-align: center;
     color: #575555;
+}
+
+abbr {
+    font-size: 18px;
+}
+
+abbr:hover {
+    color:#cbc967;
 }
 
 /*About Me Page Styles*/
