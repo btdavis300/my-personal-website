@@ -1,3 +1,4 @@
+/*General Styles*/
 body {
     background: #ddfced;
     font-family: Helvetica, Arial, sans-serif;
@@ -31,6 +32,24 @@ nav a:hover {
     color:#f6ffd2;
 }
 
+#footer {
+    position: sticky;
+    bottom: 0;
+    height: 100px;
+    width: 100vw;
+    background-color:#45aac4;
+    border-top: 2px dotted;
+}
+
+.cage {
+    max-width: 820px;
+    color:#ddfced;
+    text-align: center;
+    margin: auto;
+    padding-top:20px;
+}
+
+/*Home Page Styles*/
 .title {
     margin-bottom: 150px;
 }
@@ -68,23 +87,7 @@ nav a:hover {
     color: #575555;
 }
 
-#footer {
-    position: sticky;
-    bottom: 0;
-    height: 100px;
-    width: 100vw;
-    background-color:#45aac4;
-    border-top: 2px dotted;
-}
-
-.cage {
-    max-width: 820px;
-    color:#ddfced;
-    text-align: center;
-    margin: auto;
-    padding-top:20px;
-}
-
+/*About Me Page Styles*/
 .about-me {
     height: fit-content;
     width: fit-content;
@@ -96,4 +99,5 @@ section.about-me p {
     width: 70%;
     margin: auto;
     padding: 10px;
+    text-align: justify;
 }
