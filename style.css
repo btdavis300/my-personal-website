@@ -102,6 +102,7 @@ abbr {
 
 abbr:hover {
     color: #cbc967;
+    cursor: pointer;
 }
 
 /*About Me Page Styles*/

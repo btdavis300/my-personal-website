@@ -7,5 +7,6 @@ document.getElementById("htmlHomePageButton").addEventListener("click", function
 });
 
 document.getElementById("cssHomePageButton").addEventListener("click", function() {
-    alert(`CSS stands for Cascading Styles Sheet. It is what makes this website so pretty ☺️`);
+    alert(`CSS stands for Cascading Styles Sheet. It is what makes this website so pretty.`);
 });
+
