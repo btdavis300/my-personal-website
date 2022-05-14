@@ -4,6 +4,8 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     width: 100%;
     height: 100%;
+    margin: 0;
+    color: #575555;
 }
 
 /*Navigation Bar Styles*/
@@ -11,45 +13,53 @@ div#header {
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     background-color: #2BA68D;
     text-align: center;
-    width: 100vw;
     border-top: 2px dotted;
     border-bottom: 2px dotted;
     font-size: 1.5vw;
-    padding: 5px;  
+    padding: 5px;
+}
+
+.content {
+    /* account for footer height */
+    height: calc(100vh - 140px);
+    overflow-y: auto;
+    padding-top: 40px;
 }
 
 nav a {
-    color:#575555;
     padding-left: 75px;
     padding-right: 75px;
     border-radius: 25px;
     background-color: rgb(216, 191, 216, .50);
-    
+
 }
 
 nav a:hover {
-    color:#ddfced;
+    color: #ddfced;
     background-color: rgb(216, 191, 216, .75)
 }
 
 /*Footer Styles*/
 #footer {
-    position: sticky;
+    position: fixed;
     bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
     height: 100px;
-    width: 100vw;
-    background-color:#45aac4;
+    background-color: #45aac4;
     border-top: 2px dotted;
 }
 
 .cage {
     max-width: 820px;
-    color:#ddfced;
+    color: #ddfced;
     text-align: center;
     margin: auto;
-    padding-top:20px;
+    padding-top: 20px;
 }
 
 /*Home Page Styles*/
@@ -59,27 +69,24 @@ nav a:hover {
 
 #profile {
     position: left;
-    float:left;
-    width:200px;
+    float: left;
+    width: 200px;
     border-radius: 50px;
     margin-left: 175px;
     margin-top: 10px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 #name {
     text-align: right;
     position: right;
     margin-top: 100px;
-    margin-right:175px;
+    margin-right: 175px;
     padding-right: 30px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 
 }
 
-#container {
-    height:300px;
-    width:100vw;
+.shadow {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .intro {
@@ -87,7 +94,6 @@ nav a:hover {
     margin: auto;
     padding: 75px;
     text-align: center;
-    color: #575555;
 }
 
 abbr {
@@ -95,7 +101,7 @@ abbr {
 }
 
 abbr:hover {
-    color:#cbc967;
+    color: #cbc967;
 }
 
 /*About Me Page Styles*/
@@ -103,17 +109,11 @@ iframe {
     display: block;
     margin: 0 auto;
     border-radius: 25px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-.about-me {
-    height: fit-content;
-    width: fit-content;
-    padding-top: 40px;
-}
+.about-me {}
 
 section.about-me p {
-    color:#575555;
     width: 70%;
     margin: auto;
     padding: 10px;
